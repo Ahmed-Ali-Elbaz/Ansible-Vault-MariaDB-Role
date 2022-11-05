@@ -1,0 +1,2 @@
+[dbservers]
+dbserver(1).example.com  ansible_host=54.197.17.107 ansible_user=ec2-user

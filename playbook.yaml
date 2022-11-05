@@ -1,0 +1,16 @@
+---
+- name: MariaDB
+  hosts: dbservers
+  vars_files:
+    - roles/mariadb-server/vars/secrets.yaml
+  roles:
+    - mariadb-server
+
+
+
+
+
+
+
+
+
